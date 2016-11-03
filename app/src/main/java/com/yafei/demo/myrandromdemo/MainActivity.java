@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.mWebView = (WebView)this.findViewById(R.id.webview);
         String url = "此处设置为自己的url";
         this.mWebView.loadUrl(url);
+//        "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
         this.mWebView.setWebViewClient(new MyWebViewClient());
 
     }
